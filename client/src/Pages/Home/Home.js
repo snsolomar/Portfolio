@@ -12,12 +12,14 @@ const Home = () => {
             <img
               src={bannerImg}
               alt="Banner"
-              className="hover:border-2 hover:border-primary rounded-3xl"
+              className="hover:border-2 rounded-3xl"
             />
           </div>
           <div className="w-[300px] lg:w-full flex flex-col justify-center">
-            <h1>Hi, I'm Simon. Web Developer</h1>
-            <p>
+            <h1 className="lg:text-5xl font-bold">
+              Hi, I'm Simon - Web Developer
+            </h1>
+            <p className="py-6 lg:text-lg text-sm">
               {" "}
               Welcome! Thank you for taking the time to visit my corner of the
               internet. My name is Simon, and I enjoy creating user-friendly web
