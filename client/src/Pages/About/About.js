@@ -1,5 +1,5 @@
 import React from "react";
-import "./About.css";
+import SkillsCloud from "../../Components/TagCloud";
 
 const About = () => {
   return (
@@ -17,6 +17,7 @@ const About = () => {
               during my transition out of the military.
             </p>
             <br />
+
             <p>
               It was fascinating to see the applications that could be built
               with just a little knowledge, and I began to wonder how I could
@@ -28,7 +29,9 @@ const About = () => {
               and diverse projects.
             </p>
           </div>
-          <div className="w-[300px] lg:w-full"></div>
+          <div className="w-[300px] lg:w-full">
+            <SkillsCloud></SkillsCloud>
+          </div>
         </div>
       </div>
     </div>

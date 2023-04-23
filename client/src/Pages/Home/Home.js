@@ -1,7 +1,24 @@
-import React from "react";
+import React, { useState } from "react";
 import bannerImg from "../../Assets/Banner/solomar.jpg";
 
 const Home = () => {
+  const [letterClass, setLetterClass] = useState("text-animate");
+  const nameArray = ["S", "i", "m", "o", "n"];
+  const jobArray = [
+    "W",
+    "e",
+    "b",
+    "",
+    "D",
+    "e",
+    "v",
+    "e",
+    "l",
+    "o",
+    "p",
+    "e",
+    "r",
+  ];
   //grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3 - assigns grid space on lg and sml mobile view
   //className="w-[300px] provides a fixed size of 300px in mobile view
   return (
