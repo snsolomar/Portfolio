@@ -1,23 +1,24 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   const menuItems = (
     <React.Fragment>
       <li>
-        <Link to="/" className="hover:text-secondary">
+        <Link to="/" className="navlink">
           Home
         </Link>
-        <Link to="/" className="hover:text-secondary">
-          About
+        <Link to="/about" className="navlink">
+          About Me
         </Link>
-        <Link to="/" className="hover:text-secondary">
+        <Link to="/" className="navlink">
           Professional Experience
         </Link>
-        <Link to="/" className="hover:text-secondary">
+        <Link to="/" className="navlink">
           Portfolio
         </Link>
-        <Link to="/" className="hover:text-secondary">
+        <Link to="/" className="navlink">
           Contact
         </Link>
       </li>
