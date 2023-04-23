@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import bannerImg from "../../Assets/Banner/solomar.jpg";
+import { Link } from "react-router-dom";
+import "./Home.scss";
+
+import AnimatedLetters from "../../Components/AnimatedLetters";
 
 const Home = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -32,7 +36,32 @@ const Home = () => {
               className="hover:border-2 rounded-3xl"
             />
           </div>
-          <div className="w-[300px] lg:w-full flex flex-col justify-center">
+          <div className="text-zone">
+            <h1>
+              <span className={letterClass}>H</span>
+              <span className={`${letterClass} _12`}>i,</span>
+              <br />
+              <span className={`${letterClass} _13`}>I</span>
+              <span className={`${letterClass} _14`}>'m</span>
+              <span className={`${letterClass} _15`}> </span>
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={nameArray}
+                idx={15}
+              />
+              <br />
+              <AnimatedLetters
+                letterClass={letterClass}
+                strArray={jobArray}
+                idx={22}
+              />
+            </h1>
+            <h2>Full-Stack Developer / Javascript / Management</h2>
+            <Link to="/contact" className="flat-button">
+              Contact Me
+            </Link>
+          </div>
+          {/* <div className="w-[300px] lg:w-full flex flex-col justify-center">
             <h1 className="lg:text-5xl font-bold">
               Hi, I'm Simon - Web Developer
             </h1>
@@ -44,7 +73,7 @@ const Home = () => {
               while I was searching for hobbies I could be passionate about
               during my transition out of the military.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
