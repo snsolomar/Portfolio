@@ -1,0 +1,15 @@
+.navlink:hover {
+  color: #ffd700;
+}
+
+.home-link:hover{
+
+  border: none;
+  svg {
+    opacity: 0;
+  }
+  &:after {
+    content: 'Home';
+  }
+
+}

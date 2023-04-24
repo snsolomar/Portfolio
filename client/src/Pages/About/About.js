@@ -1,5 +1,6 @@
 import React from "react";
 import SkillsCloud from "../../Components/TagCloud";
+import Loader from "react-loaders";
 
 const About = () => {
   return (
@@ -34,6 +35,7 @@ const About = () => {
           </div>
         </div>
       </div>
+      <Loader type="pacman" />
     </div>
   );
 };

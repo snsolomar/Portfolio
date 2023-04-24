@@ -1,14 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Navbar.css";
+import "./Navbar.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHome, faUser, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faYoutube,
+  faSkype,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
   const menuItems = (
     <React.Fragment>
       <li>
         <Link to="/" className="navlink">
-          Home
+          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
         </Link>
+
         <Link to="/about" className="navlink">
           About Me
         </Link>
