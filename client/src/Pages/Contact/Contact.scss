@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+
+    flex-direction: row;
+    min-height: 100vh; // Set the minimum height to 100% of the viewport height
+    
+  }
+  
+  .contact-page {
+    flex-grow: 1; // Make sure the contact-page takes the remaining space after the sidebar
+    position: relative;
+
+  }
+  
+
+  
+  .contact-text-zone {
+    position: absolute;
+    left: 10%;
+    top: 0%;
+    //transform at this position will put the text in the center
+    transform: translateY(-50);
+    width: 40%;
+    max-height: 90%;
+    margin-top: 20px;
+
+    .text-title{
+        color: #fff;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+
+    p {
+        color: #fff;
+        font-size: 12px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+    }
+
+    ul {
+        padding: 0;
+
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            overflow: hidden;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+            clear: both;
+        }
+
+        li.half {
+            width: 49%;
+            margin-left: 2%;
+            float: left;
+            clear: none;
+
+            &:first-child {
+                margin-left: 0;
+              }
+        }
+
+        input[type='text'],
+        input[type='email'] {
+          width: 100%;
+          border: 0;
+          background: #115173;
+          height: 50px;
+          font-size: 16px;
+          color: #fff;
+          padding: 0 20px;
+          box-sizing: border-box;
+        }
+
+        textarea {
+            width: 100%;
+            border: 0;
+            background: #115173;
+            height: 50px;
+            font-size: 16px;
+            color: #fff;
+            padding: 20px;
+            min-height: 150px;
+            box-sizing: border-box;
+        }
+
+        .flat-button{
+            color: #fff;
+            background: 0 0;
+            font: 12px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            padding: 8px 10px;
+            border: 1px solid #fff;
+            float: right;
+            border-radius: 4px;
+        }
+    }
+    
+
+  }

@@ -15,7 +15,7 @@ const Navbar = () => {
     <React.Fragment>
       <li>
         <Link to="/" className="navlink">
-          <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
+          Home
         </Link>
 
         <Link to="/about" className="navlink">
@@ -27,7 +27,7 @@ const Navbar = () => {
         <Link to="/portfolio" className="navlink">
           Portfolio
         </Link>
-        <Link to="/" className="navlink">
+        <Link to="/contact" className="navlink">
           Contact
         </Link>
       </li>
