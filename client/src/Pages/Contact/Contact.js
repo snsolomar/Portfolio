@@ -5,18 +5,6 @@ import "./Contact.scss";
 import contactBanner from "../../Assets/Contact Me/contactBanner.jpeg";
 
 const Contact = () => {
-  const [letterClass, setLetterClass] = useState("text-animate");
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLetterClass("text-animate-hover");
-    }, 3000);
-
-    return () => {
-      clearTimeout(timer);
-    };
-  }, []);
-
   return (
     <>
       {" "}
@@ -32,25 +20,7 @@ const Contact = () => {
           <div className="w-[700px] lg:w-full">
             <div className="container contact-page">
               <div className="contact-text-zone">
-                <h1 className="text-title">
-                  <AnimatedLetters
-                    letterClass={letterClass}
-                    strArray={[
-                      "C",
-                      "o",
-                      "n",
-                      "t",
-                      "a",
-                      "c",
-                      "t",
-                      " ",
-                      "M",
-                      "e",
-                    ]}
-                    //1.5s delay of animation
-                    idx={15}
-                  />
-                </h1>
+                <h1 className="text-title"> Contact Me</h1>
                 <p>
                   I am an enthusiastic full-stack developer seeking a position
                   within a junior developer role. I graduated from an 18-week
