@@ -2,6 +2,7 @@ import React from "react";
 import AnimatedLetters from "../../Components/AnimatedLetters";
 import { useEffect, useState } from "react";
 import "./Contact.scss";
+import contactBanner from "../../Assets/Contact Me/contactBanner.jpeg";
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState("text-animate");
@@ -18,66 +19,101 @@ const Contact = () => {
 
   return (
     <>
-      <div className="container contact-page">
-        <div className="contact-text-zone">
-          <h1 className="text-title">
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={["C", "o", "n", "t", "a", "c", "t", " ", "M", "e"]}
-              //1.5s delay of animation
-              idx={15}
+      {" "}
+      <div className="bg-base-200 p-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3">
+          <div className="w-[300px] lg:w-full flex flex-col justify-center">
+            <img
+              src={contactBanner}
+              alt="contact-banner"
+              className="rounded-3xl"
             />
-          </h1>
-          <p>
-            I am an enthusiastic full-stack developer seeking a position within
-            a junior developer role. I graduated from an 18-week software
-            engineering immersive program with over 1000+ hours of coding in an
-            Agile environment.
-          </p>
-          <br />
-          <p align="LEFT">
-            As a proactive team player, I am intentional about communicating and
-            collaborating for the best results. In addition to this, I care a
-            lot about the value I prove for every business I work with. I'm very
-            young in my career, but I promise to provide a significant impact to
-            your team.
-          </p>
-          <div className="contact-form">
-            <form>
-              <ul>
-                <li className="half">
-                  <input type="text" name="name" placeholder="Name"></input>
-                </li>
-                <li className="half">
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Email"
-                    required
-                  ></input>
-                </li>
-                <li>
-                  <li>
-                    <input
-                      placeholder="Subject"
-                      type="text"
-                      name="subject"
-                      required
-                    />
-                  </li>
-                </li>
-                <li>
-                  <textarea
-                    placeholder="Message"
-                    name="message"
-                    required
-                  ></textarea>
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul>
-            </form>
+          </div>
+          <div className="w-[700px] lg:w-full">
+            <div className="container contact-page">
+              <div className="contact-text-zone">
+                <h1 className="text-title">
+                  <AnimatedLetters
+                    letterClass={letterClass}
+                    strArray={[
+                      "C",
+                      "o",
+                      "n",
+                      "t",
+                      "a",
+                      "c",
+                      "t",
+                      " ",
+                      "M",
+                      "e",
+                    ]}
+                    //1.5s delay of animation
+                    idx={15}
+                  />
+                </h1>
+                <p>
+                  I am an enthusiastic full-stack developer seeking a position
+                  within a junior developer role. I graduated from an 18-week
+                  software engineering immersive program with over 1000+ hours
+                  of coding in an Agile environment.
+                </p>
+                <br />
+                <p align="LEFT">
+                  I pride myself on being a proactive team player, with a focus
+                  on clear communication and collaboration to drive exceptional
+                  results. My commitment to providing exceptional value to every
+                  business I work with is unwavering. If you are interested in
+                  discussing potential opportunities or collaborations, I would
+                  be delighted to connect with you. Please don't hesitate to
+                  reach out using the contact information provided below.
+                </p>
+                <div className="contact-form">
+                  <form>
+                    <ul>
+                      <li className="half">
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                        ></input>
+                      </li>
+                      <li className="half">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                          required
+                        ></input>
+                      </li>
+                      <li>
+                        <li>
+                          <input
+                            placeholder="Subject"
+                            type="text"
+                            name="subject"
+                            required
+                          />
+                        </li>
+                      </li>
+                      <li>
+                        <textarea
+                          placeholder="Message"
+                          name="message"
+                          required
+                        ></textarea>
+                      </li>
+                      <li>
+                        <input
+                          type="submit"
+                          className="flat-button"
+                          value="SEND"
+                        />
+                      </li>
+                    </ul>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

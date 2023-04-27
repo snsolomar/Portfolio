@@ -17,6 +17,11 @@ const SkillsCloud = () => (
     >
       {[
         "Git",
+        "SQL",
+        "Javascript",
+        "Java",
+        "C#",
+        "Testing",
         "Sass",
         "React",
         "Docker",
