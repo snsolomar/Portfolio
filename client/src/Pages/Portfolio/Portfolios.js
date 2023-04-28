@@ -2,7 +2,11 @@ import React from "react";
 import "./Portfolio.css";
 import p1 from "../../Assets/Portfolio/p1.png";
 import p2 from "../../Assets/Portfolio/p2.png";
+import p3 from "../../Assets/Portfolio/p3.png";
+import p4 from "../../Assets/Portfolio/p4.png";
+import p5 from "../../Assets/Portfolio/p5.png";
 import Portfolio from "./Portfolio";
+
 const Portfolios = () => {
   const portfolios = [
     {
@@ -14,7 +18,7 @@ const Portfolios = () => {
       stack2: "CSS",
       stack3: "Javascript",
 
-      gitHubLink: "www.git",
+      gitHubLink: "https://github.com/snsolomar/instructor-hub-2",
     },
     {
       image: p2,
@@ -25,38 +29,37 @@ const Portfolios = () => {
       stack2: "CSS",
       stack3: "Javascript",
 
-      gitHubLink: "www.git",
+      gitHubLink: "https://github.com/snsolomar/AirBnB_UI_Clone",
     },
     {
-      image: p1,
-      title: "Blue Ocean",
+      image: p3,
+      title: "Weather App",
+      description:
+        "Weather application made using Jquery and asynchronous code. Integrated weather API to call data.",
+      stack1: "HTML",
+      stack2: "CSS",
+      stack3: "JQuery",
+
+      gitHubLink: "https://github.com/snsolomar/Weather-App",
+    },
+    {
+      image: p4,
+      title: "Tic-Tac-Toe",
+      description: "Tic-Tac-Toe web application made using React",
+      stack1: "HTML",
+      stack2: "CSS",
+      stack3: "React",
+
+      gitHubLink: "https://github.com/snsolomar/tic-tac-toe-React-Project",
+    },
+    {
+      image: p5,
+      title: "Trivia",
       description:
         "This is a web application used for grading class assignmens. I used HTML, CSS, Javascript, and React for this project. In the backend, I used PostgreSQL, Express, and Node.js",
       stack1: "HTML",
       stack2: "CSS",
-      stack3: "Javascript",
-
-      gitHubLink: "www.git",
-    },
-    {
-      image: p1,
-      title: "Item Detail UI",
-      description:
-        "This is a Front End Capstone project where built a seamless single page for item details. I used HTML, CSS, Javascript, and React for this project. In the backend, I used PostgreSQL, Express, and Node.js",
-      stack1: "HTML",
-      stack2: "CSS",
-      stack3: "Javascript",
-
-      gitHubLink: "www.git",
-    },
-    {
-      image: "",
-      title: "Blue Ocean",
-      description:
-        "This is a web application used for grading class assignmens. I used HTML, CSS, Javascript, and React for this project. In the backend, I used PostgreSQL, Express, and Node.js",
-      stack1: "HTML",
-      stack2: "CSS",
-      stack3: "Javascript",
+      stack3: "React",
 
       gitHubLink: "www.git",
     },
