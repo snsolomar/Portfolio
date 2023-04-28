@@ -50,14 +50,18 @@ h2 {
     //this removes the underline from Contact Me
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid #6093c2;
+    color: #6093c2;
     margin-top: 20px;
     float: left;
     animation: fadeIn 1s 1.8s backwards;
     white-space: nowrap;
 
+
     &:hover {
-        background: #ffd700;
-        color: #333;
+        background-image: linear-gradient(to top right, #c339f8, #6093c2);
+        box-shadow: 10px 10px 10px #6093c2;
+        color: #fff;
+        border: none;
     }
 }

@@ -14,9 +14,9 @@ const Portfolios = () => {
       title: "Blue Ocean",
       description:
         "This is a web application used for grading class assignmens. I used HTML, CSS, Javascript, and React for this project. In the backend, I used PostgreSQL, Express, and Node.js",
-      stack1: "HTML",
-      stack2: "CSS",
-      stack3: "Javascript",
+      stack1: "React",
+      stack2: "PostgreSQL",
+      stack3: "Express",
 
       gitHubLink: "https://github.com/snsolomar/instructor-hub-2",
     },
@@ -25,9 +25,9 @@ const Portfolios = () => {
       title: "Items Detail Page",
       description:
         "This is a web application used for grading class assignmens. I used HTML, CSS, Javascript, and React for this project. In the backend, I used PostgreSQL, Express, and Node.js",
-      stack1: "HTML",
+      stack1: "React",
       stack2: "CSS",
-      stack3: "Javascript",
+      stack3: "Bootstrap",
 
       gitHubLink: "https://github.com/snsolomar/AirBnB_UI_Clone",
     },
@@ -46,9 +46,9 @@ const Portfolios = () => {
       image: p4,
       title: "Tic-Tac-Toe",
       description: "Tic-Tac-Toe web application made using React",
-      stack1: "HTML",
+      stack1: "React",
       stack2: "CSS",
-      stack3: "React",
+      stack3: "HTML",
 
       gitHubLink: "https://github.com/snsolomar/tic-tac-toe-React-Project",
     },
@@ -57,9 +57,9 @@ const Portfolios = () => {
       title: "Trivia",
       description:
         "This is a web application used for grading class assignmens. I used HTML, CSS, Javascript, and React for this project. In the backend, I used PostgreSQL, Express, and Node.js",
-      stack1: "HTML",
-      stack2: "CSS",
-      stack3: "React",
+      stack1: "React",
+      stack2: "Express",
+      stack3: "CSS",
 
       gitHubLink: "www.git",
     },
