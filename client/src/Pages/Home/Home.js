@@ -30,11 +30,13 @@ const Home = () => {
       <div className="bg-base-200 p-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3">
           <div className="w-[300px] lg:w-full">
-            <img
-              src={bannerImg}
-              alt="Banner"
-              className="hover:border-2 rounded-3xl"
-            />
+            <Link to="/about">
+              <img
+                src={bannerImg}
+                alt="Banner"
+                className="hover:border-2 rounded-3xl"
+              />
+            </Link>
           </div>
           <div className="text-zone">
             <h1>

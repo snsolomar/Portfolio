@@ -1,10 +1,28 @@
 import React from "react";
 import AnimatedLetters from "../../Components/AnimatedLetters";
 import { useEffect, useState } from "react";
+import { useRef } from "react";
 import "./Contact.scss";
 import contactBanner from "../../Assets/Contact Me/contactBanner.jpeg";
+import emailjs from "@emailjs/browser";
 
 const Contact = () => {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm("gmail", "service_votfc98", form.current, "service_votfc98")
+      .then(
+        () => {
+          alert("Message successfully sent!");
+          window.location.reload(false);
+        },
+        () => {
+          alert("Failed to send the message, please try again");
+        }
+      );
+  };
   return (
     <>
       {" "}
@@ -35,10 +53,10 @@ const Contact = () => {
                   business I work with is unwavering. If you are interested in
                   discussing potential opportunities or collaborations, I would
                   be delighted to connect with you. Please don't hesitate to
-                  reach out using the contact information provided below.
+                  reach out using the contact form provided below.
                 </p>
                 <div className="contact-form">
-                  <form>
+                  <form ref={form} onSubmit={sendEmail}>
                     <ul>
                       <li className="half">
                         <input
