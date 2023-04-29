@@ -5,7 +5,7 @@ import Loader from "react-loaders";
 const About = () => {
   return (
     <div>
-      <div className="bg-base-200 p-10 w-[380px]">
+      <div className="bg-base-200 p-10 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3">
           <div className="w-[300px] lg:w-full flex flex-col justify-center">
             <h1 className="lg:text-5xl font-bold">About Me</h1>
@@ -23,11 +23,10 @@ const About = () => {
               It was fascinating to see the applications that could be built
               with just a little knowledge, and I began to wonder how I could
               turn this newfound passion into a career. In Feb 2023, I graduated
-              from one of the most reputable bootcamps and began my early career
-              in software development. I'm a very ambitious full-stack developer
-              looking for a role in an established IT company with the
-              opportunity to work with the latest technologies on challenging
-              and diverse projects.
+              from Galvanize and began my early career in software development.
+              I'm a very ambitious full-stack developer looking for a role in an
+              established IT company with the opportunity to work with the
+              latest technologies on challenging and diverse projects.
             </p>
           </div>
           <div className="w-[300px]">
