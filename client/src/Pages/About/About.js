@@ -5,7 +5,7 @@ import Loader from "react-loaders";
 const About = () => {
   return (
     <div>
-      <div className="bg-base-200 p-10">
+      <div className="bg-base-200 p-10 w-[380px]">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3">
           <div className="w-[300px] lg:w-full flex flex-col justify-center">
             <h1 className="lg:text-5xl font-bold">About Me</h1>
