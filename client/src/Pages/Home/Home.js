@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import bannerImg from "../../Assets/Banner/solomar.jpg";
 import { Link } from "react-router-dom";
 import "./Home.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 import AnimatedLetters from "../../Components/AnimatedLetters";
 
@@ -62,20 +64,16 @@ const Home = () => {
             <Link to="/contact" className="flat-button">
               Contact Me
             </Link>
+            {/* <Link
+              className="linkedIn-button"
+              to="https://www.linkedin.com/in/solomar/"
+            >
+              <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+            </Link>
+            <Link className="github-button" to="https://github.com/snsolomar">
+              <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+            </Link> */}
           </div>
-          {/* <div className="w-[300px] lg:w-full flex flex-col justify-center">
-            <h1 className="lg:text-5xl font-bold">
-              Hi, I'm Simon - Web Developer
-            </h1>
-            <p className="py-6 lg:text-lg text-sm">
-              {" "}
-              Welcome! Thank you for taking the time to visit my corner of the
-              internet. My name is Simon, and I enjoy creating user-friendly web
-              applications. My interest in programming began in September 2021
-              while I was searching for hobbies I could be passionate about
-              during my transition out of the military.
-            </p>
-          </div> */}
         </div>
       </div>
     </div>
