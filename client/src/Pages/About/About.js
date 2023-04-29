@@ -30,7 +30,7 @@ const About = () => {
               and diverse projects.
             </p>
           </div>
-          <div className="w-[300px] lg:w-full ">
+          <div className="w-[300px]">
             <SkillsCloud></SkillsCloud>
           </div>
         </div>

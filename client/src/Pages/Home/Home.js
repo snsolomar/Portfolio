@@ -31,7 +31,7 @@ const Home = () => {
     <div>
       <div className="bg-base-200 p-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3">
-          <div className="w-[300px] lg:w-full">
+          <div className="w-[380px] lg:w-full">
             <Link to="/about">
               <img
                 src={bannerImg}
@@ -60,7 +60,9 @@ const Home = () => {
                 idx={22}
               />
             </h1>
-            <h2>Full-Stack Developer / Javascript / Management</h2>
+            <h2 className="w-[300px]  lg:w-full">
+              Full-Stack Developer / Javascript / Management
+            </h2>
             <Link to="/contact" className="flat-button">
               Contact Me
             </Link>

@@ -12,7 +12,7 @@
   height: 100%; /* Adjust the size of the circle container */
 
   border-radius: 50%; /* Make the container circular */
-  transform: translateX(25%) translateY(-3%); /* Center the container horizontally */
+  transform: translateX(45%) translateY(-3%); /* Center the container horizontally */
   /* Add a simple scale animation */
   animation: scale-animation 3s infinite alternate ease-in-out;
 }
