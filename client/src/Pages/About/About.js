@@ -11,13 +11,13 @@ const About = () => {
             <h1 className="lg:text-5xl font-bold">About Me</h1>
             <p className="py-6 lg:text-lg text-sm">
               {" "}
-              Welcome! Thank you for taking the time to visit my corner of the
-              internet. My name is Simon, an Army veteran and first-generation
-              American from Los Angeles, CA. I'm passionate about competitive
-              gaming, economics, painting, weightlifting, and programming. My
-              diverse upbringing and military experience as a Tank Platoon
-              Leader and Headquarters Company XO have instilled in me
-              adaptability, open-mindedness, and resiliency.
+              Welcome to my corner of the internet! My name is Simon, an Army
+              veteran and first-generation American from Los Angeles, CA. I'm
+              passionate about competitive gaming, economics, painting,
+              weightlifting, and programming. My diverse upbringing and military
+              experience as a Tank Platoon Leader and Headquarters Company XO
+              have instilled in me adaptability, open-mindedness, and
+              resiliency.
             </p>
 
             <p>
