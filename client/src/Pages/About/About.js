@@ -17,7 +17,7 @@ const About = () => {
               gaming, economics, painting, weightlifting, and programming. My
               diverse upbringing and military experience as a Tank Platoon
               Leader and Headquarters Company XO have instilled in me
-              adaptability, open-mindedness, and resilience.
+              adaptability, open-mindedness, and resiliency.
             </p>
 
             <p>
