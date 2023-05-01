@@ -19,6 +19,6 @@
 
 @media (max-width: 767px) {
   .Cloud-container {
-    transform: translateX(-25%) translateY(0%); /* Center the container horizontally */
+    transform: translateX(-5%) translateY(0%); /* Center the container horizontally */
   }
 }

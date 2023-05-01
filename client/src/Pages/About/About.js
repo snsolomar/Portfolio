@@ -12,21 +12,28 @@ const About = () => {
             <p className="py-6 lg:text-lg text-sm">
               {" "}
               Welcome! Thank you for taking the time to visit my corner of the
-              internet. My name is Simon, and I enjoy creating user-friendly web
-              applications. My interest in programming began in September 2021
-              while I was searching for hobbies I could be passionate about
-              during my transition out of the military.
+              internet. My name is Simon, an Army veteran and first-generation
+              American from Los Angeles, CA. I'm passionate about competitive
+              gaming, economics, painting, weightlifting, and programming. My
+              diverse upbringing and military experience as a Tank Platoon
+              Leader and Headquarters Company XO have instilled in me
+              adaptability, open-mindedness, and resilience.
             </p>
-            <br />
 
             <p>
-              It was fascinating to see the applications that could be built
-              with just a little knowledge, and I began to wonder how I could
-              turn this newfound passion into a career. In Feb 2023, I graduated
-              from Galvanize and began my early career in software development.
-              I'm a very ambitious full-stack developer looking for a role in an
-              established IT company with the opportunity to work with the
-              latest technologies on challenging and diverse projects.
+              During my time in the Army, I witnessed the power and potential of
+              technology in streamlining communication, analyzing data, and
+              making critical decisions. This inspired me to pursue a career in
+              the Tech industry, with a focus on programming, systems
+              integration, and software development.
+            </p>
+            <br />
+            <p>
+              As I transition into the Tech world, I am excited to apply the
+              leadership, problem-solving, and adaptability skills honed during
+              my military service to new challenges and opportunities. I am
+              dedicated to making a meaningful impact in this rapidly evolving
+              field.
             </p>
           </div>
           <div className="w-[300px]">
