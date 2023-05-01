@@ -7,8 +7,8 @@ const Portfolio = ({ portfolio }) => {
     portfolio;
 
   return (
-    <div className="w-[350px] mx-10 lg:w-full portfolio-card">
-      <div className="card w-[300px] lg:w-96 bg-base-100 shadow-xl">
+    <div className="min-w-[350px] mx-10 lg:w-full portfolio-card">
+      <div className="card min-w-[300px] lg:w-96 bg-base-100 shadow-xl">
         <figure>
           <img src={image} alt="portfolio" />
         </figure>

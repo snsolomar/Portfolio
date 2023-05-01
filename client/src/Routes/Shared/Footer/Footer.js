@@ -5,9 +5,9 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
-    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded w-[380px] lg:w-full">
+    <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded w-[100%] lg:w-full">
       <div>
-        <div className="grid grid-flow-col gap-4 w-[380px] lg:w-full">
+        <div className="grid grid-flow-col gap-4 w-[100%] lg:w-full">
           <a
             target="_blank"
             rel="noreferrer"
