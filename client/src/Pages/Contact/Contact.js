@@ -35,7 +35,7 @@ const Contact = () => {
               className="rounded-3xl"
             />
           </div>
-          <div className="w-[700px] lg:w-full">
+          <div className="w-[300px] lg:w-full">
             <div className="container contact-page">
               <div className="contact-text-zone">
                 <h1 className="text-title"> Contact Me</h1>
