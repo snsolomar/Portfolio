@@ -24,7 +24,7 @@ const Portfolios = () => {
       image: p2,
       title: "Items Detail Page",
       description:
-        "hotel reservation web application serves as an item detail page, providing essential information for customers seeking accommodations. Developed using HTML, CSS, JavaScript, and React, the frontend delivers a visually engaging and user-friendly experience. The application allows users to easily browse through available rooms, view high-quality images, and read detailed descriptions, as well as check availability and pricing for their desired stay dates.",
+        "Hotel reservation web application serves as an item detail page, providing essential information for customers seeking accommodations. Developed using HTML, CSS, JavaScript, and React, the frontend delivers a visually engaging and user-friendly experience. The application allows users to easily browse through available rooms, view high-quality images, and read detailed descriptions, as well as check availability and pricing for their desired stay dates.",
       stack1: "React",
       stack2: "CSS",
       stack3: "Bootstrap",
