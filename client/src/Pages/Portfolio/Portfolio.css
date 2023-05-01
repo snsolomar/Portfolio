@@ -1,21 +1,21 @@
 .portfolio-card {
   padding: 20px 10px;
   margin: 0 20px;
-  border: 1px solid #1cfdff;
+  border: 1px solid #6093c2;
   border-radius: 10px;
-  box-shadow: 10px 10px 10px #1cfdff;
+  box-shadow: 10px 10px 10px #6093c2;
 }
 
 .portfolio-card:hover {
-  box-shadow: 10px 10px 10px #6093c2;
+  box-shadow: 10px 10px 10px #1cfdff;
   color: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #1cfdff;
 }
 
 .portfolio-button-github {
   padding: 10px 20px;
-  border: 1px solid #1cfdff;
-  color: #1cfdff;
+  border: 1px solid #6093c2;
+  color: #6093c2;
 }
 
 .portfolio-button-github:hover {
