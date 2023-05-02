@@ -13,7 +13,7 @@ const Portfolios = () => {
       image: p1,
       title: "Blue Ocean",
       description:
-        "Grading web application streamlines the process of evaluating class assignments and tracking student performance. The backend is supported by PostgreSQL, Express, and Node.js, ensuring a reliable and efficient data management system. Instructors can create groups, add students, and grade assignments with ease. The application automatically calculates and updates students' average scores, which are then displayed in a visually appealing and informative graph",
+        "Grading web application streamlines the process of evaluating class assignments and tracking student performance. The backend is supported by PostgreSQL, Express, and Node.js, ensuring a reliable and efficient data management system. Instructors can create groups, add students, and grade assignments with ease. The application automatically calculates and updates students' average scores, which are then displayed in a visually appealing and informative graph.",
       stack1: "React",
       stack2: "PostgreSQL",
       stack3: "Express",
@@ -35,7 +35,7 @@ const Portfolios = () => {
       image: p3,
       title: "Weather App",
       description:
-        "Weather application is built using jQuery and asynchronous code to deliver a seamless user experience. By integrating a robust weather API, the app retrieves real-time weather data for any entered city. Users simply input the city name and the application fetches the relevant data. his application is designed to be both lightweight and highly responsive",
+        "Weather application is built using jQuery and asynchronous code to deliver a seamless user experience. By integrating a robust weather API, the app retrieves real-time weather data for any entered city. Users simply input the city name and the application fetches the relevant data. This application is designed to be both lightweight and highly responsive.",
       stack1: "Jquery",
       stack2: "HTML",
       stack3: "CSS",
