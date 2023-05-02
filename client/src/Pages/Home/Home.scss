@@ -66,3 +66,13 @@ h2 {
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .text-zone {
+    position: initial;
+    width: 100%;
+    transform: none;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+}
+
