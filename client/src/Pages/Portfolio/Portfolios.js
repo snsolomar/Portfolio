@@ -62,7 +62,7 @@ const Portfolios = () => {
       stack2: "PostgreSQL",
       stack3: "Express",
 
-      gitHubLink: "www.git",
+      gitHubLink: "https://github.com/snsolomar/mcsp-the-answer-is-react",
     },
   ];
   return (

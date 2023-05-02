@@ -25,7 +25,12 @@ const Portfolio = ({ portfolio }) => {
           </h2>
           <p>{description}</p>
           <div className="card-actions justify-end">
-            <a href={gitHubLink} className="portfolio-button-github">
+            <a
+              href={gitHubLink}
+              className="portfolio-button-github"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Github
             </a>
           </div>
