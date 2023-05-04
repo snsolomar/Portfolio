@@ -11,17 +11,14 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs
-      .sendForm("gmail", "template_tldjkge", form.current, "service_votfc98")
-      .then(
-        () => {
-          alert("Message successfully sent!");
-          window.location.reload(false);
-        },
-        () => {
-          alert("Failed to send the message, please try again");
-        }
-      );
+    emailjs.sendForm("service_votfc98", "template_tldjkge", form.current).then(
+      function (response) {
+        console.log("SUCCESS!", response.status, response.text);
+      },
+      function (error) {
+        console.log("FAILED...", error);
+      }
+    );
   };
   return (
     <>

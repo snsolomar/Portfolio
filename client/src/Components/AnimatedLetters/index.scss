@@ -7,10 +7,5 @@
     min-width: 10px;
 }
 
-@for $i from 1 through 35 {
-    .text-animate._#{$i} {
-        //divides the index by 10 and interates through each of them by calculated time
-        animation-delay: #{$i / 10}s;
-    }
-}
+
 
