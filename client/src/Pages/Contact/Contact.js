@@ -12,7 +12,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm("gmail", "service_votfc98", form.current, "service_votfc98")
+      .sendForm("gmail", "template_tldjkge", form.current, "service_votfc98")
       .then(
         () => {
           alert("Message successfully sent!");
