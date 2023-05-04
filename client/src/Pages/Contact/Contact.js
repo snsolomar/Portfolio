@@ -11,14 +11,23 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm("service_votfc98", "template_tldjkge", form.current).then(
-      function (response) {
-        console.log("SUCCESS!", response.status, response.text);
-      },
-      function (error) {
-        console.log("FAILED...", error);
-      }
-    );
+    emailjs
+      .sendForm(
+        "service_votfc98",
+        "template_tldjkge",
+        form.current,
+        "E7xJgIJt0_hbGx2IU"
+      )
+      .then(
+        function (response) {
+          alert("Sucess");
+          console.log("SUCCESS!", response.status, response.text);
+        },
+        function (error) {
+          alert("Failed to send");
+          console.log("FAILED...", error);
+        }
+      );
   };
   return (
     <>
