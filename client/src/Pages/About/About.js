@@ -3,13 +3,14 @@ import SkillsCloud from "../../Components/TagCloud";
 import Loader from "react-loaders";
 
 const About = () => {
+  //className="py-6 lg:text-lg text-sm"
   return (
     <div>
       <div className="bg-base-200 p-10 ">
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3">
           <div className="w-[300px] lg:w-full flex flex-col justify-center">
             <h1 className="lg:text-5xl font-bold">About Me</h1>
-            <p className="py-6 lg:text-lg text-sm">
+            <p>
               {" "}
               Welcome to my corner of the internet! My name is Simon, an Army
               veteran and first-generation American from Los Angeles, CA. I'm
