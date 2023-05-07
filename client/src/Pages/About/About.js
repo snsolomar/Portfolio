@@ -10,7 +10,7 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-5 gap-3">
           <div className="w-[300px] lg:w-full flex flex-col justify-center">
             <h1 className="lg:text-5xl font-bold">About Me</h1>
-            <p>
+            <p className="pt-1">
               {" "}
               Welcome to my corner of the internet! My name is Simon, an Army
               veteran and first-generation American from Los Angeles, CA. I'm
@@ -20,7 +20,7 @@ const About = () => {
               have instilled in me adaptability, open-mindedness, and
               resiliency.
             </p>
-
+            <br />
             <p>
               During my time in the Army, I witnessed the power and potential of
               technology in streamlining communication, analyzing data, and
