@@ -14,7 +14,7 @@ const Home = () => {
     "W",
     "e",
     "b",
-    "",
+    " ",
     "D",
     "e",
     "v",
@@ -48,17 +48,9 @@ const Home = () => {
               <span className={`${letterClass} _13`}>I</span>
               <span className={`${letterClass} _14`}>'m</span>
               <span className={`${letterClass} _15`}> </span>
-              <AnimatedLetters
-                letterClass={letterClass}
-                strArray={nameArray}
-                idx={15}
-              />
+              <AnimatedLetters letterClass={letterClass} strArray={nameArray} />
               <br />
-              <AnimatedLetters
-                letterClass={letterClass}
-                strArray={jobArray}
-                idx={22}
-              />
+              <AnimatedLetters letterClass={letterClass} strArray={jobArray} />
             </h1>
             <h2 className="w-[300px]  lg:w-full">
               Full-Stack Developer / Javascript / Management
