@@ -32,6 +32,28 @@ const Portfolios = () => {
       gitHubLink: "https://github.com/snsolomar/AirBnB_UI_Clone",
     },
     {
+      image: p4,
+      title: "Cassandra Discord Bot",
+      description:
+        "Cassandra is a Discord Community bot that provides real-time responses to questions. The bot also provides community management utilities.",
+      stack1: "JavaScript",
+      stack2: "Express",
+      stack3: "Node.js",
+
+      gitHubLink: "https://github.com/snsolomar/Discord-Bot",
+    },
+    {
+      image: p5,
+      title: "Task Tracker",
+      description:
+        "Full-Crud Task Tracker built with Angular. Users can add,edit, and delete tasks with instant response times.",
+      stack1: "Angular",
+      stack2: "TypeScript",
+      stack3: "CSS",
+
+      gitHubLink: "https://github.com/snsolomar/taskTrackerAngular",
+    },
+    {
       image: p3,
       title: "Weather App",
       description:
@@ -41,28 +63,6 @@ const Portfolios = () => {
       stack3: "CSS",
 
       gitHubLink: "https://github.com/snsolomar/Weather-App",
-    },
-    {
-      image: p4,
-      title: "Tic-Tac-Toe",
-      description:
-        "Tic-tac-toe web application offers users a fresh take on the classic game. One standout feature of this tic-tac-toe app is its ability to remember each move made by the user. This functionality allows players to seamlessly undo any mistakes, providing an opportunity for strategic reconsideration and improving their chances of winning.",
-      stack1: "React",
-      stack2: "PostgreSQL",
-      stack3: "Express",
-
-      gitHubLink: "https://github.com/snsolomar/tic-tac-toe-React-Project",
-    },
-    {
-      image: p5,
-      title: "Trivia",
-      description:
-        "Trivia web application delivers a captivating and challenging experience for players, drawing inspiration from the classic game show format. The modular nature of JSX components also makes it easy to implement design changes, resulting in a highly maintainable and scalable application. The application leverages an API to gather a diverse array of categories and questions.",
-      stack1: "React",
-      stack2: "PostgreSQL",
-      stack3: "Express",
-
-      gitHubLink: "https://github.com/snsolomar/mcsp-the-answer-is-react",
     },
   ];
   return (
