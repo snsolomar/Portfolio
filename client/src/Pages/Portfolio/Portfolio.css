@@ -24,3 +24,9 @@
   color: #fff;
   border: none;
 }
+
+.portfolio-image {
+  width: 100%; /* This will make the image take up the full width of its container */
+  height: 200px; /* Adjust as per your needs */
+  object-fit: cover; /* This will ensure your images cover the full width and height without distortion */
+}

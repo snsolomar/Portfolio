@@ -12,7 +12,7 @@ const Portfolio = ({ portfolio }) => {
       <div className="card min-w-[300px] lg:w-96 bg-base-100 shadow-xl">
         <figure>
           <a href={gitHubLink} target="_blank" rel="noopener noreferrer">
-            <img src={image} alt="portfolio" />
+            <img className="portfolio-image" src={image} alt="portfolio" />
           </a>
         </figure>
         <div className="card-body">

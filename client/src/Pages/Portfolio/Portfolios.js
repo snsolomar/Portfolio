@@ -35,7 +35,7 @@ const Portfolios = () => {
       image: p4,
       title: "Cassandra Discord Bot",
       description:
-        "Cassandra is a Discord Community bot that provides real-time responses to questions. The bot also provides community management utilities.",
+        "Cassandra is a Discord Community Bot designed with a focus on real-time interaction and community moderation. One of Cassandra's core functionalities is its ability to provide instantaneous responses to user queries. This feature allows users to get swift answers to their questions. Cassandra is equipped with advanced community moderation tools. Administrators can leverage the bot to kick, mute, or ban members, ensuring that community guidelines are upheld and any disruptive behavior is promptly addressed.",
       stack1: "JavaScript",
       stack2: "Express",
       stack3: "Node.js",
@@ -46,7 +46,7 @@ const Portfolios = () => {
       image: p5,
       title: "Task Tracker",
       description:
-        "Full-Crud Task Tracker built with Angular. Users can add,edit, and delete tasks with instant response times.",
+        "The Task Tracker is a Full-Crud app constructed with the Angular framework. The interface allows users to input new tasks, amend existing ones, or delete completed tasks. Every task can be detailed with descriptions, deadlines, and priorities. Leveraging the strengths of Angular, this application ensures reliable real-time updates, with changes instantly reflecting across the application. ",
       stack1: "Angular",
       stack2: "TypeScript",
       stack3: "CSS",
