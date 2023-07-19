@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -11,9 +11,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
   const menuItems = (
     <React.Fragment>
-      <li>
+      <li onClick={() => setIsMenuOpen(false)}>
         <Link to="/" className="navlink">
           Home
         </Link>
@@ -21,9 +23,7 @@ const Navbar = () => {
         <Link to="/about" className="navlink">
           About Me
         </Link>
-        {/* <Link to="/experience" className="navlink">
-          Professional Experience
-        </Link> */}
+
         <Link to="/portfolio" className="navlink">
           Portfolio
         </Link>
@@ -33,12 +33,17 @@ const Navbar = () => {
       </li>
     </React.Fragment>
   );
+
   return (
     <div>
       <div className="navbar bg-base-100">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label
+              tabIndex={0}
+              className="btn btn-ghost lg:hidden"
+              onClick={() => setIsMenuOpen(!isMenuOpen)}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -54,13 +59,15 @@ const Navbar = () => {
                 />
               </svg>
             </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              {" "}
-              {menuItems}
-            </ul>
+            {isMenuOpen && (
+              <ul
+                tabIndex={0}
+                className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              >
+                {" "}
+                {menuItems}
+              </ul>
+            )}
           </div>
           <Link to="/" className="btn btn-ghost normal-case text-xl">
             Simon Solomon
